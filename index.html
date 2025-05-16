@@ -1,120 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Curriculum Nathaly</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #eee;
-      margin: 0;
-      padding: 20px;
-    }
-    .container {
-      background-color: #d68bc5;
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-      border: 3px solid #333;
-    }
-    h1, h2 {
-      text-align: center;
-      color: #4b0033;
-    }
-    .section {
-      margin-bottom: 20px;
-    }
-    .image-row {
-      display: flex;
-      justify-content: center;
-      margin: 20px 0;
-    }
-    .image-row img {
-      width: 200px;
-      height: 200px;
-      border: 2px solid #555;
-    }
-    .mintur-logo {
-      text-align: center;
-      margin: 20px 0;
-    }
-    .mintur-logo img {
-      height: 80px;
-    }
-    .columns {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: space-between;
-      margin-bottom: 20px;
-    }
-    .column {
-      flex: 1 1 100%;
-      background-color: #e6cce0;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    @media (min-width: 600px) {
-      .column {
-        flex: 1 1 45%;
-      }
-    }
-    .footer {
-      text-align: center;
-      margin-top: 30px;
-      font-weight: bold;
-    }
-    .footer span {
-      margin: 0 30px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Nathaly Moreno</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <div class="section">
-      <p style="text-align: right;">Maracay, Mayo 2025</p>
-      <h1>Síntesis Curricular</h1>
-      <h2>Nathaly Andrea Moreno Serrada</h2>
-    </div>
+    <header>
+        <div class="logo">
+            <img src="my Nat.jpg" alt="Foto de Nathaly Moreno">
+        </div>
+        <h1>Nathaly Moreno</h1>
+        <p>Desarrolladora Web | Especialista en CSS, HTML y Python</p>
+        <nav>
+            <ul>
+                <li><a href="about.html">Sobre mí</a></li>
+                <li><a href="portfolio.html">Portafolio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="image-row">
-      <img src="C:\Users\CyberKong7\Desktop\Pagina web\Mi Nat.jpg" width="300" height="300" alt="Foto curriculum">
-    </div>
+    <section id="presentation">
+        <h2>Bienvenido a mi portafolio</h2>
+        <p>Explora mi experiencia y proyectos en desarrollo web. <a href="about.html">Ver más sobre mí →</a></p>
+    </section>
 
-    <div class="columns">
-      <div class="column">
-        <h3>Datos Personales</h3>
-        <p>Fecha de nacimiento: 28/05/2002</p>
-        <p>Edad: 21 Años</p>
-        <p>Cédula: 29.890.752</p>
-      </div>
-      <div class="column">
-        <h3>Contacto</h3>
-        <p>Número telefónico: 04243565296</p>
-        <p>Correo Electrónico: nathymor03@gmail.com</p>
-        <p>Dirección: Guasimal, Manzana 3-6 PB</p>
-      </div>
-      <div class="column">
-        <h3>Educación</h3>
-        <p>Primaria:</p>
-        <p>Secundaria:</p>
-        <p>Universitaria:</p>
-      </div>
-      <div class="column">
-        <h3>Experiencia</h3>
-        <p>Casino Bellagio</p>
-      </div>
-      <div class="column">
-        <h3>Fortalezas</h3>
-        <p>Puntual</p>
-      </div>
-      <div class="column">
-        <h3>Cursos Realizados</h3>
-        <p>Inces</p>
-      </div>
-    </div>
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy <strong>Nathaly Moreno</strong>, una apasionada del desarrollo web con experiencia en tecnologías como HTML, CSS y Python. Actualmente, estudio en el <strong>IUTA</strong>, donde perfecciono mis habilidades en informática y desarrollo de software.</p>
+        <p>Mi enfoque está en la creación de interfaces modernas, optimización de código y diseño de experiencias digitales. <a href="portfolio.html">Mira mis proyectos →</a></p>
+    </section>
 
-    </div>
-  </div>
+    <section id="portfolio">
+        <h2>Mis Proyectos</h2>
+        <div class="project">
+            <img src="html-project.jpg" alt="Proyecto HTML">
+            <h3>Desarrollo en HTML</h3>
+            <p>Creación de estructuras web optimizadas.</p>
+        </div>
+        <div class="project">
+            <img src="css-project.jpg" alt="Proyecto CSS">
+            <h3>Diseño con CSS</h3>
+            <p>Estilos modernos y responsivos.</p>
+        </div>
+        <div class="project">
+            <img src="python-project.jpg" alt="Proyecto Python">
+            <h3>Automatización con Python</h3>
+            <p>Scripts para mejorar procesos digitales.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nathaly Moreno - Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
